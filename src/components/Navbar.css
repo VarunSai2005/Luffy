@@ -2,7 +2,7 @@
 
 .navbar {
   position: fixed;
-  width: 1320px;
+  width: 100%;         
   top: 0;
   height: 72px;
   padding: 0 60px;
@@ -10,10 +10,11 @@
   align-items: center;
   justify-content: space-between;
   pointer-events: none;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(10, 8, 6, 0.55);
   backdrop-filter: blur(6px);
   z-index: 1000;
-  border-bottom: 1px solid rgba(30, 144, 255, 0.25);
+  border-bottom: 1px solid rgba(139, 26, 26, 0.35);
+  box-sizing: border-box;  
 }
 
 /* ── Logo ─────────────────────────────────── */
